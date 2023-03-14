@@ -20,21 +20,22 @@
     }
     .container {
       height: 100vh;
-      position: relative;
+      display: grid;
+      place-content: center;
       background: hsl(212, 45%, 89%);
     }
     .content {
-      position: absolute;
+      /* position: absolute; */
       height: auto;
       /* width: 30%; */
       max-width: 375px;
       border-radius: 15px;
       padding: 15px 15px 30px 15px;
       background: hsl(0, 0%, 100%);
-      top: 50%;
-      left: 50%;
+      /* top: 50%;
+      left: 50%; */
       text-align: center;
-      transform: translate(-50%, -50%);
+      /* transform: translate(-50%, -50%); */
     }
     .img {
       width: 350px;
